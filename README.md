@@ -14,14 +14,14 @@ Koden til installation findes også i filen InstallPSModul.ps1
 * Hvis der er installeret et modul med navnet AzureRM fjernes dette:
 `Uninstall-Module -name AzureRM`
 
-Set herefter executionPolicy for powershell til RemoteSigned 
+* Set herefter executionPolicy for powershell til RemoteSigned 
 
 `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
-Installer så Az PowerShell modulet i Windows PowerShell:
+* Installer så Az PowerShell modulet i Windows PowerShell:
 
 `Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force`
 
-Nu kan der forbindes til Azure via:
+* Nu kan der forbindes til Azure via:
 `Connect-AzAccount`
 ![Screenshot af oprette forbindelse](https://github.com/ibhelmer/AzureCloudKursus/blob/main/images/ConnectAZ.png)
