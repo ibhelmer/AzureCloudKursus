@@ -23,5 +23,7 @@ Koden til installation findes også i filen InstallPSModul.ps1
 `Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force`
 
 * Nu kan der forbindes til Azure via:
+
 `Connect-AzAccount`
+
 ![Screenshot af oprette forbindelse](https://github.com/ibhelmer/AzureCloudKursus/blob/main/images/ConnectAZ.png)
