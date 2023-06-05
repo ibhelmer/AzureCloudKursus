@@ -14,4 +14,4 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
 # Nu kan der forbindes til Azure via:
 Connect-AzAccount
-![Screenshot af oprette forbindelse] (https://github.com/ibhelmer/AzureCloudKursus/blob/main/images/ConnectAZ.png)
+![Screenshot af oprette forbindelse](https://github.com/ibhelmer/AzureCloudKursus/blob/main/images/ConnectAZ.png)
