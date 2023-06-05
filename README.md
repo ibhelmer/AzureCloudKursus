@@ -27,5 +27,3 @@ Koden til installation af modul findes også i filen [InstallPSModul.ps1](https:
 `Connect-AzAccount`
 
 ![Screenshot af oprette forbindelse](https://github.com/ibhelmer/AzureCloudKursus/blob/main/images/ConnectAZ.png)
-
-##

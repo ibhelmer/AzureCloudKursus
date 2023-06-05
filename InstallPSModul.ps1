@@ -8,7 +8,7 @@
 	 URL:			https://github.com/ibhelmer/AzureCloudKursus
 	===========================================================================
 	.DESCRIPTION
-		Klargør og installere Azure Powershell modul
+		Klargør og installere Azure Powershell modul (Windows)
 #>
 # Tjek om modulet AzureRM er installeret i PowerShell, fjernes hvis det er installeret
 Get-Module -ListAvailable | Where-Object {$_.Name -like 'AzureRM*'} | Uninstall-Module 
