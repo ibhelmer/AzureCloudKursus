@@ -11,7 +11,7 @@ Tjek om modulet AzureRM er installeret i powershell, fjernes hvis det er install
 #Set herefter executionPolicy for powershell til RemoteSigned 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 # Installer så Az PowerShell modulet i Windows PowerShell:
-Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
+`Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force`
 # Nu kan der forbindes til Azure via:
 Connect-AzAccount
 
