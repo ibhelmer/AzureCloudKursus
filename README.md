@@ -1,3 +1,3 @@
 # AzureCloudKursus
-Scripts til remote management af Azure fra Powershell
-> Dette er
+>Scripts til remote management af Azure fra Powershell
+
