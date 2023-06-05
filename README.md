@@ -1,7 +1,7 @@
 # AzureCloudKursus
 >Scripts til remote management af Azure fra Powershell
 ## Installation af PowerShell modul
->Koden til installation findes også i filen InstallPSModul.ps1
+Koden til installation findes også i filen InstallPSModul.ps1
 Tjek om modulet AzureRM er installeret i powershell, fjernes hvis det er installeret
 'Get-Module -ListAvailable | Where-Object {$_.Name -like 'AzureRM*'} | Uninstall-Module' 
 # Dette kan også gøres "manuelt" ved først at liste installeret modul med navnet AzureRM:
